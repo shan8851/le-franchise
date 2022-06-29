@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import image from "../assets/money.jpg";
+import image from "../assets/money.jpeg";
 import { breakpoints, colors } from "../helpers/globals";
 
 export const EarningPotential = () => {

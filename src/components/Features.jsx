@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { breakpoints, colors } from "../helpers/globals";
-import Image1 from "../assets/software.jpg";
-import Image2 from "../assets/support.jpg";
-import Image3 from "../assets/team.jpg";
+import Image1 from "../assets/software.jpeg";
+import Image2 from "../assets/support.jpeg";
+import Image3 from "../assets/team.jpeg";
 export const Features = () => {
   return (
     <Wrapper>

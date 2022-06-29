@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player";
 import styled from "styled-components";
-import image from "../assets/photo1.jpg";
+import image from "../assets/photo1.jpeg";
 import { breakpoints, colors } from "../helpers/globals";
 
 export const Hero = () => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { breakpoints, colors } from "../helpers/globals";
-import Chill from "../assets/chill.png";
+import Chill from "../assets/photo3.jpeg";
 export const Form = () => {
   const [success, setSuccess] = useState(false);
 
