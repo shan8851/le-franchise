@@ -30,6 +30,12 @@ export const Form = () => {
           <input type="hidden" name="form-name" value="join" />
           <FormRow>
             <FormInput
+              type="name"
+              id="name"
+              name="name"
+              placeholder="Name"
+            />
+            <FormInput
               type="email"
               id="email"
               name="email"
@@ -141,7 +147,7 @@ const FormTextarea = styled.textarea`
   border: 1px solid ${colors.blue};
   padding: 16px;
   box-shadow: 5px 5px 9px -1px rgba(41, 50, 80, 0.64);
-    background-color: #f6f6f7;
+  background-color: #f6f6f7;
   color: ${colors.blue};
 
   :placeholder {
@@ -150,14 +156,12 @@ const FormTextarea = styled.textarea`
 
     @media (max-width: ${breakpoints.tablet}) {
     width: 70%;
-    margin: 8px 0;
-          padding: 8px;
+    padding: 12px;
   }
 
   @media (max-width: ${breakpoints.mobile}) {
     width: 90%;
-    margin: 8px 0;
-          padding: 6px;
+    padding: 12px;
   }
 `;
 
