@@ -19,7 +19,7 @@ export const Hero = () => {
 
       </Container>
       <VideoWrapper>
-        <ReactPlayer width={600} controls url='https://youtu.be/yjIk_DuGCWQ' />
+        <ReactPlayer width='100%' controls url='https://youtu.be/yjIk_DuGCWQ' />
       </VideoWrapper>
     </Wrapper>
   );
@@ -40,10 +40,8 @@ const Container = styled.div`
   justify-content: space-between;
   max-width: 1024px;
   margin: 0 auto;
-  padding: 64px 32px;
 
   @media (max-width: ${breakpoints.tablet}) {
-    padding: 32px 16px;
     flex-direction: column-reverse;
   }
 `;
@@ -66,7 +64,7 @@ const Heading = styled.h1`
   font-size: 28px;
 
   @media (max-width: ${breakpoints.mobile}) {
-    font-size: 24px;
+    font-size: 22px;
   }
 `;
 
@@ -74,7 +72,7 @@ const HeaderText = styled.p`
   font-size: 20px;
 
   @media (max-width: ${breakpoints.mobile}) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `;
 
@@ -93,6 +91,9 @@ const Image = styled.img`
 export const VideoWrapper = styled.div`
   display: flex;
   justify-content: center;
-
+  align-items: center;
+  margin: 16px auto;
+  width: 98%;
+  max-width: 700px;
 `;
 

@@ -7,7 +7,7 @@ import { Features } from "./components/Features";
 
 export const App = () => {
   return (
-    <div>
+    <div style={{ maxWidth: '100vw' }}>
       <Header />
       <Hero />
       <Features />

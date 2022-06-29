@@ -2,15 +2,13 @@ import hero from "../assets/hero.jpeg";
 import styled from "styled-components";
 export const Header = () => {
   return (
-    <Container>
-      <HeaderBar src={hero} />
-    </Container>
+
+    <HeaderBar src={hero} />
+
   );
 };
 
-const Container = styled.div`
-  width: 100vh;
-`
+
 
 const HeaderBar = styled.img`
   height: auto;

@@ -45,6 +45,15 @@ export const Form = () => {
           <FormRow>
             <FormTextarea
               type="text"
+              id="address"
+              name="address"
+              placeholder="Address Number"
+              rows={5}
+            />
+          </FormRow>
+          <FormRow>
+            <FormTextarea
+              type="text"
               id="message"
               name="message"
               placeholder="Message..."
@@ -117,11 +126,13 @@ const FormInput = styled.input`
   @media (max-width: ${breakpoints.tablet}) {
     width: 70%;
     margin: 8px 0;
+      padding: 8px;
   }
 
   @media (max-width: ${breakpoints.mobile}) {
     width: 90%;
     margin: 8px 0;
+      padding: 6px;
   }
 `;
 
@@ -140,11 +151,13 @@ const FormTextarea = styled.textarea`
     @media (max-width: ${breakpoints.tablet}) {
     width: 70%;
     margin: 8px 0;
+          padding: 8px;
   }
 
   @media (max-width: ${breakpoints.mobile}) {
     width: 90%;
     margin: 8px 0;
+          padding: 6px;
   }
 `;
 
@@ -159,7 +172,7 @@ const Button = styled.button`
   box-shadow: 5px 5px 9px -1px rgba(41, 50, 80, 0.64);
 
   @media (max-width: ${breakpoints.mobile}) {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   :hover {

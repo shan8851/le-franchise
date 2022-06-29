@@ -73,7 +73,7 @@ const Heading = styled.h1`
   font-size: 28px;
    color: ${colors.yellow};
   @media (max-width: ${breakpoints.mobile}) {
-    font-size: 24px;
+    font-size: 22px;
   }
 `;
 
@@ -81,7 +81,7 @@ const HeaderText = styled.p`
   font-size: 20px;
  color: ${colors.white};
   @media (max-width: ${breakpoints.mobile}) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `;
 
@@ -99,6 +99,10 @@ const Image = styled.img`
 
 const ActionLink = styled.a`
   color: ${colors.yellow};
+
+    @media (max-width: ${breakpoints.mobile}) {
+    font-size: 14px;
+  }
 `;
 
 
@@ -118,6 +122,10 @@ export const GridHeader = styled.div`
   font-size: 16px;
   padding: 8px;
   color: ${colors.yellow};
+   @media (max-width: ${breakpoints.mobile}) {
+    padding: 4px;
+    font-size: 12px;
+  }
 `
 
 export const GridItem = styled.div`
@@ -128,6 +136,11 @@ export const GridItem = styled.div`
   font-size: 16px;
   padding: 8px;
     color: ${colors.white};
+
+       @media (max-width: ${breakpoints.mobile}) {
+    padding: 4px;
+    font-size: 12px;
+  }
 `
 
 

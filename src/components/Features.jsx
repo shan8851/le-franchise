@@ -71,13 +71,20 @@ const ItemImage = styled.img`
 `;
 
 const ItemHeading = styled.h5`
-  font-size: 24px;
+  font-size: 28px;
   color: ${colors.blue};
   text-align: center;
+
+    @media (max-width: ${breakpoints.mobile}) {
+    font-size: 22px;
+  }
 `;
 
 const ItemText = styled.p`
-  font-size: 17px;
+  font-size: 16px;
   color: ${colors.blue};
   text-align: center;
+    @media (max-width: ${breakpoints.mobile}) {
+    font-size: 14px;
+  }
 `;
