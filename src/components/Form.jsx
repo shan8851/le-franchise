@@ -50,7 +50,7 @@ export const Form = ({ setSuccess }) => {
               type="text"
               id="address"
               name="address"
-              placeholder="Address Number"
+              placeholder="Your address"
               rows={5}
             />
           </FormRow>
