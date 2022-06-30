@@ -49,7 +49,7 @@ const SuccessText = styled.p`
 `;
 
 export const App = () => {
-  const [success, setSuccess] = useState(true);
+  const [success, setSuccess] = useState(false);
 
   if (success)
     return (
