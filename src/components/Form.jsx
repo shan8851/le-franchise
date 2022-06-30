@@ -15,7 +15,7 @@ export const Form = ({ setSuccess }) => {
       <Container>
         <Heading>For more information about franchise opportunities please fill out the form below.</Heading>
         <PartnerForm name="join" method="POST" action="/?success=true" netlify>
-          <input type="hidden" name="form-name" value="join" />
+          <input type="hidden" name="form-name" value="franchise" />
           <FormRow>
             <FormInput
               type="name"
