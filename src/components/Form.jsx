@@ -41,11 +41,20 @@ export const Form = () => {
               name="email"
               placeholder="Email Address"
             />
+
+          </FormRow>
+          <FormRow>
             <FormInput
-              type="text"
+              type="number"
               id="number"
               name="number"
               placeholder="Contact Number"
+            />
+            <FormInput
+              type="text"
+              id="methodOfContact"
+              name="methodOfContact"
+              placeholder="Preferred method of contact"
             />
           </FormRow>
           <FormRow>
