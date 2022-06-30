@@ -51,6 +51,11 @@ const SuccessText = styled.p`
 export const App = () => {
   const [success, setSuccess] = useState(false);
 
+  const handleGoBack = () => {
+    setSuccess(false);
+    window.location.replace('https://letseatfranchise.com')
+  }
+
   if (success)
     return (
       <SuccessContainer>
@@ -59,7 +64,7 @@ export const App = () => {
         <SuccessText>
           Put your feet up, we will be in touch shortly.
         </SuccessText>
-        <button onClick={() => setSuccess(false)}>go back</button>
+        <button onClick={handleGoBack}>go back</button>
       </SuccessContainer>
     );
   return (
